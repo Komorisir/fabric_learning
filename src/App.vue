@@ -1,10 +1,11 @@
-<script setup lang="ts">
-import MainCanvas from './components/MainCanvas.vue'
-</script>
-
 <template>
-  <MainCanvas/>
+  <MainCanvas />
 </template>
 
-<style scoped>
-</style>
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import MainCanvas from './components/MainCanvas.vue'
+onMounted(() => {
+  console.log('Mounted')
+})
+</script>
