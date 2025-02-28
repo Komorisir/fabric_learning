@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "fabric": "^6.5.1",
+    "photo-logger": "^1.0.2",
     "vue": "^3.5.12"
   },
   "devDependencies": {
